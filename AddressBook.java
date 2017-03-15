@@ -11,3 +11,15 @@ public class AddressBook {
 		friends = new Contact[10];
 		numfriends = 0;
     }
+	public void addContact(Contact c) {
+ 		friends[numfriends] = c;
+ 		numfriends++;
+ 	}
+ 	public void printContacts(){
+ 		for(Contact cc: AddressBook)
+ 			friends[cc].printContact();
+ 	}
+	public int numContacts(){
+		return friends.length;
+	}
+	public 
