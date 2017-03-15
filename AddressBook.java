@@ -20,6 +20,8 @@ public class AddressBook {
  			friends[cc].printContact();
  	}
 	public int numContacts(){
-		return friends.length;
+		return numfriends;
 	}
-	public 
+	public int haveContact(String s){
+		//iterate through the list of friends i = 0 to numfriends
+		//if(friends[i].getName.equals(s)
