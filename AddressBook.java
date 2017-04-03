@@ -51,6 +51,18 @@ public class AddressBook {
 		int choice = scan.nextInt();
 		if(choice == 1) {
 			syrup.addContact();
+			System.out.println("What's the name?");
+				String name = scan.nextLine();
+			System.out.println("What's the age?");
+				int age = scan.nextInt();
+			System.out.println("What's the phone number?")'
+				int number = scan.nextInt();
+			System.out.println("What's the birthday month?");
+				int month = scan.nextInt();
+			System.out.println("What's the birthday day?");
+				int day = scan.nextInt();
+				
+			Contact c = new Contact(name, age, number, month, day);
 		}
 		if(choice == 2) {
 			syrup.delete();
